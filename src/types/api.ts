@@ -296,7 +296,9 @@ export interface BooksResponse {
   items: {
     current_page: number;
     data: Book[];
+    to: number;
   };
+  total: number;
 }
 
 export interface BookResponse {
