@@ -1,6 +1,6 @@
 import { getToken } from '@/lib/auth/token';
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? 'http://localhost:3000';
+const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? 'https://api-eight-taupe-26.vercel.app';
 
 export class ApiError extends Error {
   constructor(
